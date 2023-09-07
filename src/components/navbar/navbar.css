@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ulofnavbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ulofnavbar li{
+    list-style: none;
+    margin: 5px 10px;
+    font-family: arial;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+
+.ulofnavbar li:hover{
+    border-bottom: 2px solid black;
+}
+
+.logoofnavbar{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cambria;
+}
